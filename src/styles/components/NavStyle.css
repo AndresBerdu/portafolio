@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.navbar-background {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 4vw;
+    background-color: #002e34;
+}
+
+.container-buttons {
+    display: flex;
+    align-items: center;
+    height: 7vw;
+    list-style: none;
+}
+
+.container-button {
+    background: #90ff17;
+    padding-block: 0.7rem;
+    padding-inline: 1rem;
+    margin-inline: 2rem;
+    border-radius: 0.5rem;
+}
+
+.button {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button:hover {
+    transition: 1ms;
+}
