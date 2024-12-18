@@ -11,21 +11,17 @@ const NavbarComponent = () => {
         <nav className='navbar-background'>
             <ul className='container-buttons'>
                 <NavLink className='container-button'>
-                    <li className='button'>About Me</li>
+                    <li className='button'>ACERCA DE MI</li>
                 </NavLink>
                 <NavLink className='container-button'>
-                    <li className='button'>Projects</li>
+                    <li className='button'>PROYECTOS</li>
                 </NavLink>
                 <NavLink className='container-button'>
-                    <li className='button'>Studies</li>
+                    <li className='button'>ESTUDIOS</li>
                 </NavLink>
                 <NavLink className='container-button'>
-                    <li className='button'>Contact Me</li>
+                    <li className='button'>CONTACTAME</li>
                 </NavLink>
-            </ul>
-            <ul>
-                <button>ES-EG</button>
-                <button>DARK MODE</button>
             </ul>
         </nav>
     )

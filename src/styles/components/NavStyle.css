@@ -5,29 +5,28 @@
 .navbar-background {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-inline: 4vw;
-    background-color: #002e34;
+    justify-content:    center;
+    padding-inline: 3vw;
+    background: radial-gradient(circle, #f7f3cf 70%, #ffffff);
 }
 
 .container-buttons {
     display: flex;
     align-items: center;
-    height: 7vw;
+    height: 4vw;
     list-style: none;
 }
 
 .container-button {
-    background: #90ff17;
-    padding-block: 0.7rem;
-    padding-inline: 1rem;
     margin-inline: 2rem;
-    border-radius: 0.5rem;
+    text-decoration: none;
 }
 
 .button {
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #176585;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .button:hover {
